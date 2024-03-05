@@ -62,7 +62,7 @@ class ProductManager {
 
     constructor() {
         this.products = []
-        this.path = './Productos.txt'
+        this.path = '../Productos.txt'
     }
     #getNewId() {
         const id = this.#ultimoId
